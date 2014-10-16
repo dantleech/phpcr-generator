@@ -1,0 +1,23 @@
+{
+    "name": "dantleech/phpcr-generator",
+    "description": "Fixture generastor for PHPCR",
+    "authors": [
+        {
+            "name": "Daniel Leech",
+            "email": "daniel@dantleech.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "~2.5",
+        "phpcr/phpcr-implementation": "~2.1.0"
+    },
+    "require-dev": {
+        "jackalope/jackalope-fs": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "DTL\\PHPCR\\Generator\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
